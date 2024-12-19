@@ -1,0 +1,99 @@
+.symptom-selector {
+  width: 98.5vw;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f8fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.symptom-selector h1 {
+  margin-bottom: 2rem;
+  color: #11a99a;
+}
+.symptom-selector .buttons-container {
+  border: #1c4070 2px solid;
+  border-radius: 1rem;
+  width: 50%;
+  max-height: 45vh;
+  overflow-y: auto;
+}
+.symptom-selector .buttons-container::-webkit-scrollbar {
+  display: none;
+}
+.symptom-selector .buttons-container .symptom-buttons {
+  margin: 0.7rem 0.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: fit-content;
+}
+.symptom-selector .buttons-container .symptom-buttons button {
+  text-wrap: wrap;
+  padding: 0.75rem 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background: #f5f8fc;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  color: #1c4070;
+  font-weight: bold;
+}
+.symptom-selector .buttons-container .symptom-buttons button:hover {
+  border-color: #11a99a;
+}
+.symptom-selector .buttons-container .symptom-buttons button.active {
+  background: #11a99a;
+  color: #fff;
+  border-color: #11a99a;
+}
+.symptom-selector .output {
+  margin-top: 1rem;
+}
+.symptom-selector .output h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.symptom-selector .output p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #555;
+}
+@media (max-width: 1030px) {
+  .symptom-selector .buttons-container {
+    width: 70%;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+  .symptom-selector .buttons-container .symptom-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1030px) and (max-width: 640px) {
+  .symptom-selector .buttons-container {
+    width: 70%;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+  .symptom-selector .buttons-container .symptom-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1030px) and (max-width: 640px) and (max-width: 485px) {
+  .symptom-selector .buttons-container {
+    width: 70%;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+  .symptom-selector .buttons-container .symptom-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */
