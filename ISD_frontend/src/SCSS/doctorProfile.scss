@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .profile {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    .profile-img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .rating {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+  }
+
+  .reviews {
+    background-color: #fff;
+    margin: 5px 20px;
+    border-radius: 8px;
+
+    .review-card {
+      border-bottom: 1px solid #eaeaea;
+      padding: 10px 0;
+
+      .review-header {
+        display: flex;
+        align-items: center;
+
+        .review-img {
+          border-radius: 50%;
+          margin-right: 10px;
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .review-rating {
+        margin: 10px 0;
+      }
+
+      .review-footer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #555;
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -18,15 +18,15 @@ a {
   flex-grow: 1;
 }
 .navbar .logo img {
-  height: 7.5rem;
+  height: 6.5rem;
   width: auto;
-  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
 }
 .navbar .nav-links {
   display: flex;
   width: 55%;
   justify-content: space-between;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .navbar .nav-links li {
   margin: 0;
@@ -77,6 +77,7 @@ a {
     grid-row: 2/3;
     width: 100%;
     justify-content: space-around;
+    margin-bottom: 1.5rem;
   }
   .navbar .nav-links a {
     font-size: 1.44rem;

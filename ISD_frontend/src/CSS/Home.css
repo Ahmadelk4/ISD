@@ -1,7 +1,7 @@
 .symptom-selector {
   width: 98.5vw;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #11a99a;
   background-color: #f5f8fc;
   min-height: 100vh;
   display: flex;
@@ -11,10 +11,10 @@
 }
 .symptom-selector h1 {
   margin-bottom: 2rem;
-  color: #11a99a;
+  color: #1c4070;
 }
 .symptom-selector .buttons-container {
-  border: #1c4070 2px solid;
+  border: #11a99a 2px solid;
   border-radius: 1rem;
   width: 50%;
   max-height: 45vh;
@@ -60,7 +60,7 @@
 .symptom-selector .output p {
   margin: 0;
   font-size: 1.5rem;
-  color: #555;
+  color: #11a99a;
 }
 @media (max-width: 1030px) {
   .symptom-selector .buttons-container {

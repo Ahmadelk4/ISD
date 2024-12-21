@@ -1,0 +1,82 @@
+.medicine-list {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 9rem;
+}
+.medicine-list .medicines-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.medicine-list .medicines-header h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+.medicine-list .medicines-container {
+  display: grid;
+  gap: 1rem;
+}
+.medicine-list .medicines-container .medicines-headers {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+}
+.medicine-list .medicines-container .medicines-headers span {
+  text-align: center;
+}
+.medicine-list .medicines-container .medicines-row {
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.medicine-list .medicines-container .medicines-row:last-child {
+  border-bottom: none;
+}
+.medicine-list .medicines-container .medicines-row span {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.medicine-list .medicines-container .medicines-row span .type {
+  display: none;
+}
+@media (max-width: 901px) {
+  .medicine-list .medicines-container {
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+  .medicine-list .medicines-container .medicines-headers {
+    display: none;
+  }
+  .medicine-list .medicines-container .medicines-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    gap: 1rem;
+    justify-items: center;
+  }
+  .medicine-list .medicines-container .medicines-row span {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .medicine-list .medicines-container .medicines-row span.type {
+    display: inline;
+    width: fit-content;
+  }
+  .medicine-list .medicines-container .medicines-row span span {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=MedicationAndHistory.css.map */

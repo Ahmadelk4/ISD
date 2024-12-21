@@ -1,0 +1,90 @@
+.match-list {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.match-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.match-list .diagnosis-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  border: #267178 2px solid;
+  border-radius: 6px;
+}
+.match-list .diagnosis-container h2 {
+  font-size: 1.7rem;
+}
+.match-list .diagnosis-container h2 span {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.match-list .doctors-list {
+  margin-top: 1rem;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.match-list .doctors-list::-webkit-scrollbar {
+  display: none;
+}
+.match-list .doctors-list ul {
+  list-style: none;
+}
+.match-list .doctors-list ul .doctor-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.match-list .doctors-list ul .doctor-item .doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.match-list .doctors-list ul .doctor-item .doctor-info .doctor-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.match-list .doctors-list ul .doctor-item .doctor-info .doctor-avatar img {
+  width: 100%;
+  height: 100%;
+}
+.match-list .doctors-list ul .doctor-item .doctor-info h3 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.match-list .doctors-list ul .doctor-item .doctor-info p {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #555;
+  font-weight: bold;
+}
+.match-list .doctors-list ul .doctor-item .doctor-details p {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+}
+.match-list .doctors-list .view-more-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.match-list .doctors-list .view-more-button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=Diagnoses.css.map */
